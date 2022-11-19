@@ -1,0 +1,154 @@
+/* Cài đặt hình nền thay thế tệp tương ứng trong thư mục： */
+
+body {
+    background-image: url('../background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar-thumb {
+    /*Hình vuông nhỏ bên trong thanh cuộn*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #b1b1b1;
+}
+
+body::-webkit-scrollbar-track {
+    /* theo dõi bên trong thanh cuộn */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #5f5f5f;
+}
+
+
+/* Các nút điều khiển trang chính */
+
+#theme-btn {
+    color: white;
+}
+
+
+/* Chuột di chuyển qua các nút điều khiển trên trang chính */
+
+#theme-btn:hover {
+    color: #e6e6e6;
+}
+
+
+/* Cài đặt bảng điều khiển */
+
+
+/* cửa sổ */
+
+#theme-box {
+    border: white 2px solid;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+
+/* Phần kéo tiêu đề bảng điều khiển */
+
+#theme-title {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+
+/* Di chuột qua phần tiêu đề kéo theo bảng điều khiển */
+
+#theme-title:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+
+/* Chuột di chuyển trên bảng điều khiển đã đóng */
+
+#theme-close:hover {
+    background-color: rgba(255, 0, 0, .5);
+}
+
+
+/* nội dung bảng điều khiển */
+
+#theme-container {
+    color: white;
+    /* Đây là màu văn bản */
+}
+
+
+/* kiểu thẻ trong theme-container */
+
+#theme-containter a {
+    color: rgb(158, 187, 241);
+}
+
+
+/* Đây là thanh cuộn chứa nội dung của bảng điều khiển */
+
+#theme-container::-webkit-scrollbar-thumb {
+    /*Hình vuông nhỏ bên trong thanh cuộn*/
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #b1b1b1;
+}
+
+#theme-container::-webkit-scrollbar-track {
+    /* theo dõi bên trong thanh cuộn */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: #5f5f5f;
+}
+
+
+/* Các nút chủ đề khác */
+
+#click-to-themes {
+    color: rgb(143, 136, 238);
+}
+
+
+/* hình ảnh hiển thị chủ đề */
+
+.theme-pic {
+    border: 1px white solid;
+    /*khung*/
+}
+
+
+/* văn bản hình ảnh hiển thị chủ đề */
+
+.theme-text {
+    color: rgba(0, 0, 0, 0);
+}
+
+
+/* văn bản chủ đề xuất hiện */
+
+.theme-text:hover {
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+
+/* Vui lòng không xóa quảng cáo */
+
+
+/**/
+
+
+/**/
+
+
+/** Tôi chúc tất cả các bạn có sức khỏe tốt, bạn sẽ vượt qua bài kiểm tra ****/
+
+
+/* Một kiểu thẻ ở vị trí quảng cáo */
+
+.qf a {
+    color: rgb(158, 187, 241);
+}
+
+
+/* Về một thẻ */
+
+#about a {
+    color: rgb(158, 187, 241);
+}
